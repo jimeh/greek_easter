@@ -2,7 +2,7 @@ class GreekEaster
   
   def self.at(year = nil)
     date = self.easter(year)
-		return "In the year #{date.year}, the Greek Easter is on #{date.strftime("%d %B")}.";
+    return "In the year #{date.year}, the Greek Easter is on #{date.strftime("%d %B")}.";
   end
   
   def self.easter(year = nil)
@@ -13,12 +13,12 @@ class GreekEaster
     c = year % 7
     d = (19 * a + 16) % 30
     e = (2 * b + 4 * c + 6 * d) % 7;
-  	easter = 3 + d + e;
-  	if easter <= 30
-  	  Time.local(year, 4, easter)
-  	else
-  	  Time.local(year, 5, (easter - 30))
-  	end
+    easter = 3 + d + e;
+    if easter <= 30
+      Time.local(year, 4, easter)
+    else
+      Time.local(year, 5, (easter - 30))
+    end
   end
   
 end
