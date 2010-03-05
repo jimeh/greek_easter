@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{greek_easter}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jim Myhrberg"]
@@ -14,8 +14,12 @@ Gem::Specification.new do |s|
   s.description = %q{Never wonder again when easter is in Greece.}
   s.email = %q{contact@jimeh.me}
   s.executables = ["greek_easter"]
+  s.extra_rdoc_files = [
+    "README.md"
+  ]
   s.files = [
     ".gitignore",
+     "README.md",
      "Rakefile",
      "VERSION",
      "bin/greek_easter",
