@@ -15,9 +15,11 @@ Gem::Specification.new do |s|
   s.email = %q{contact@jimeh.me}
   s.executables = ["greek_easter"]
   s.files = [
-    "Rakefile",
+    ".gitignore",
+     "Rakefile",
      "VERSION",
      "bin/greek_easter",
+     "greek_easter.gemspec",
      "lib/greek_easter.rb"
   ]
   s.homepage = %q{http://github.com/jimeh/greek_easter}
