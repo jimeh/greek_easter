@@ -17,4 +17,4 @@ Easter eggs are nice. And this is one. But to really enjoy them, you need to kno
 
 Released under the MIT license.
 
-Copyright (c) 2010 Jim Myhrberg & Clark Kent.
+Copyright (c) 2010 James Bond & Clark Kent.
